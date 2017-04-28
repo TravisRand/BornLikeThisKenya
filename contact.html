@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Born Like This Kenya | Contact</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu|Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="bornLikeThisKenya.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+    <script src="scripts.js"></script>
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        
+            <a href="home.html">Born Like This Kenya</a>
+            <a href="getInvolved.html">Get Involved</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="javascript:void(0);" style="font-size:17px;" class="icon" onclick="myFunction()">&#9776;</a>
+       
+    </div>
+
+    <img class="img-responsive" src="kenya-very-wide-red.jpg">
+
+    <div class="container-fluid" id="contact">
+        <div class="container">
+            <form action="mailto:travisrand32@gmail.com">
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <!-- Footer -->
+        <footer class="container-fluid footerbg text-center">
+            <form id="donateButton" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+                <!-- Identify your business so that you can collect the payments. -->
+<input type="hidden" name="business" value="bornLikeThisKenya@Gmail.com">
+
+                <!-- Specify a Donate button. -->
+                <input type="hidden" name="cmd" value="_donations">
+
+                <!-- Specify details about the contribution -->
+                <input type="hidden" name="item_name" value="General Donation Fund">
+                <input type="hidden" name="item_number" value="">
+                <input type="hidden" name="currency_code" value="USD">
+
+                <!-- Display the payment button. -->
+                <input type="image" name="submit" src="https://www.paypalobjects.com/webstatic/en_US/i/btn/png/btn_donate_92x26.png" alt="Donate">
+                <img alt="" width="1" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
+
+            </form>
+            <p>2017 Born Like This Kenya</p>
+            <div id="social-bar">
+                <!--<a href="https://twitter.com/" class="icon-button twitter"><i class="fa fa-twitter" aria-hidden="true"></i><span></span></a>-->
+                <a href="https://www.facebook.com/BornLikeThisKenya/" class="icon-button facebook"><i class="fa fa-facebook" aria-hidden="true"></i><span></span></a>
+                <!--<a href="https://www.instagram.com/?hl=en" class="icon-button instagram"><i class="fa fa-instagram" aria-hidden="true"></i><span></span></a>-->
+            </div>
+            <p>Powered by <a href="https://cloud77.com" id="cloud77Link">Cloud77</a>&copy</p>
+        </footer>
+    </div>
+    </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+
+</html>

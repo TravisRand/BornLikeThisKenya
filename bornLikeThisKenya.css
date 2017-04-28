@@ -1,0 +1,376 @@
+body {
+  background-color: black !important;
+  font-family: 'Ubuntu', 'Lato', Arial, Verdana;
+  text-align: center;
+  margin: 0;
+}
+
+iframe {
+  border: solid transparent 20px;
+}
+
+#box {
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(12, 149, 57);
+}
+
+
+/*------------[[Home]]-------------*/
+
+.banner {
+  margin-bottom: 10px;
+}
+
+.banner img {
+  min-height: 60px;
+}
+
+.container-fluid {
+  min-width: 100px
+}
+
+.vertColImg {
+  width: 100%;
+  height: 300px;
+  max-height: 300px;
+  opacity: 1;
+  display: block;
+  transition: 0.2s ease-in;
+  margin-bottom: 15px;
+}
+
+.vertColImg:hover {
+  opacity: 0.1;
+}
+
+.middle {
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.container:hover .image {
+  opacity: 0;
+}
+
+.container-fluid:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  font-weight: bolder;
+  color: rgb(12, 149, 57);
+  text-shadow: 2px 2px 1px black;
+  font-size: 2em;
+  /*padding: 16px 32px;*/
+}
+
+.underImagesBorder {
+  background-color: rgb(216, 88, 25);
+  width: auto;
+  height: 5px;
+  margin-top: -6px;
+}
+
+.text:hover {
+  /* font-size: 2.5em; */
+}
+
+.mainQuote {
+  color: rgb(12, 149, 57);
+  padding: 30px 30px 0px 30px;
+}
+
+span {
+  color: rgb(216, 88, 25);
+}
+
+.border {
+  background-color: rgb(216, 88, 25);
+  width: auto auto;
+  height: 1px;
+}
+
+#donateButton {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+#cloud77Link {
+  text-decoration: none;
+}
+
+
+/*-------------[[About]]-----------*/
+
+#bodyAbout {
+	margin:0;
+	background: url("bg.png") fixed;
+	color: white;
+	font-family: 'Ubuntu', 'Lato', Arial, Verdana;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+
+#main {
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+#about {
+  background: url("/Born Like This Kenya/bg.png") fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#content {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin: 20px;
+}
+
+#head {
+  width: 100%;
+}
+
+#closing {
+  margin-top: 25px;
+}
+
+
+/*-------------[[NAV]]-------------*/
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(12, 149, 57);
+  color: white;
+  text-decoration: none;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 666px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+
+/*-------[[FOOTER]]------*/
+
+.footerbg {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/*--------[[GetInvolved]]--------*/
+#bodygetInvolved {
+  margin:0;
+	background: url("el_sun.jpg") fixed;
+	color: white;
+	font-family: 'Ubuntu', 'Lato', Arial, Verdana;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*---------[[Gallery]]--------*/
+#bodyGallery {
+  margin:0;
+	background: url("kenyanValley.jpg") fixed;
+	color: white;
+	font-family: 'Ubuntu', 'Lato', Arial, Verdana;
+	background-repeat: no-repeat;
+	background-size: cover;
+  
+}
+
+
+/*----------[[Contact]]-------*/
+
+#contact {
+  background-image: url("greenfield.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid rgb(216, 88, 25);
+  ;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */
+  resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
+/* Style the submit button with a specific background color etc */
+
+input[type=submit] {
+  background-color: rgb(12, 149, 57);
+  color: black;
+  font-size: 175%;
+  font-weight: bold;
+  padding: 8px 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  border-bottom: 3.5px solid black;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  font-weight: bolder;
+  background-color: rgb(12, 175, 57);
+}
+
+
+/* Add a background color and some padding around the form */
+
+.container {
+  padding-bottom: 15px
+}
+
+
+/* Wrapper */
+
+.icon-button {
+  background-color: white;
+  border-radius: 3.6rem;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 2.0rem;
+  height: 3.6rem;
+  line-height: 3.6rem;
+  margin: 0 5px;
+  position: relative;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 3.6rem;
+}
+
+
+/*----------- Circle ----------*/
+
+.icon-button span {
+  border-radius: 0;
+  display: block;
+  height: 0;
+  left: 50%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 0;
+}
+
+.icon-button:hover span {
+  width: 3.6rem;
+  height: 3.6rem;
+  border-radius: 3.6rem;
+  margin: -1.8rem;
+}
+
+.facebook span {
+  background-color: #3B5998;
+}
+
+
+/*---------- Icons --------- */
+
+.icon-button i {
+  background: none;
+  color: white;
+  height: 3.6rem;
+  left: 0;
+  line-height: 3.6rem;
+  position: absolute;
+  top: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 3.6rem;
+  z-index: 10;
+}
+
+
+/* When pointer not on icon */
+
+.icon-button .fa-facebook {
+  color: #3B5998;
+}
+
+
+/* When the pointer icon */
+
+.icon-button:hover .fa-facebook {
+  color: white;
+}

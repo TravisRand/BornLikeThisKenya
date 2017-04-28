@@ -1,0 +1,21 @@
+#bodyAbout {
+	margin:0;
+	background: url("bg.png") fixed;
+	color: white;
+	font-family: 'Ubuntu', 'Lato', Arial, Verdana;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+iframe{
+	border: solid transparent 20px;
+}
+#box{
+	margin-left: 25% ;
+	margin-right: 25%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(12, 149, 57);
+  
+}
